@@ -13,7 +13,7 @@ html, body {
 }
 
 .navbar {
-  padding: .8rem;
+  padding: 0.8rem;
 }
 
 .navbar-nav li {
@@ -21,7 +21,7 @@ html, body {
 }
 
 .nav-link {
-  font-size: 1.1em;
+  font-size: 1.1rem;
 }
 
 .carousel-inner img {
@@ -50,7 +50,19 @@ html, body {
 }
 
 .btn-primary {
-  background-color: #000;
+  background-color:rgb(66, 135, 201);
+  border: 1px solid beige;
+}
+
+.btn-primary:hover {
+  background-color: #222;
+  border: 1px solid #222;
+}
+
+.jumbotron {
+  padding: 100px;
+  border-radius: 0;
+  
 }
  
 
